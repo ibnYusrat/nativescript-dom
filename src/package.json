@@ -1,13 +1,13 @@
 {
-  "name": "nativescript-dom",
+  "name": "nativescript-dom-free",
   "version": "2.0.5",
-  "description": "A NativeScript module for DOM Emulation",
+  "description": "A NativeScript module for DOM Emulation. Since the original plugin requires a subscription now, this plugin is my attempt to maintain it to the point where it does not break.",
   "main": "dom",
   "typings": "index.d.ts",
   "nativescript": {
 	"platforms": {
-	  "android": "3.0.0",
-	  "ios": "3.0.0"
+	  "android": "6.0.0",
+	  "ios": "6.0.0"
 	},
 	"plugin": {
 	  "nan": "false",
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://git.proplugins.org/proplugins/nativescript-dom.git"
+    "url": "https://github.com/ibnYusrat/nativescript-dom"
   },
   "keywords": [
     "NativeScript",
@@ -43,13 +43,18 @@
 	  "name": "Ludwik Trammer",
 	  "email": "ludwik@gmail.com",
 	  "url": "https://github.com/ludwiktrammer"
-	}
+	},
+    {
+      "name": "Muhammad bin Yusrat",
+      "email": "ibnyusrat@yahoo.com",
+      "url": "https://github.com/ibnYusrat"
+    }
   ],
   "license": "Unsupported",
   "bugs": {
     "url": "https://git.proplugins.org/proplugins/nativescript-dom/issues"
   },
-  "homepage": "https://git.proplugins.org/proplugins/nativescript-dom",
+  "homepage": "https://github.com/ibnYusrat/nativescript-dom",
   "readmeFilename": "README.md",
   "scripts": {
     "postinstall": "node postinstall.js || echo \"ignore\""
